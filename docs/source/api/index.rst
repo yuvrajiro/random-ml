@@ -1,0 +1,13 @@
+API reference
+=============
+
+This page gives an overview of all public objects, functions and methods.
+
+.. toctree::
+   :maxdepth: 2
+
+   base
+   regression
+   classifier
+   mlpedrvfl
+   ensemble

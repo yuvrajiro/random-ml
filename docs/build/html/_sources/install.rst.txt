@@ -1,0 +1,28 @@
+User Guide
+==========
+
+Welcome to the user guide! This section will help you get started with MLPedRVFL.
+
+Installation
+------------
+
+To install the package, run:
+
+.. code-block:: bash
+
+   pip install random-ml
+
+Basic Usage
+-----------
+
+Here’s how to use MLPedRVFL:
+
+.. code-block:: python
+
+   from mlpedrvfl import MLPedRVFL
+   import numpy as np
+   X = np.random.rand(100, 10)
+   y = np.random.rand(100)
+   model = MLPedRVFL(in_dim=10, n_nodes=50, n_layers=3)
+   model.fit(X, y)
+   predictions = model.predict(X)

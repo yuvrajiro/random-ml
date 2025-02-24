@@ -1,0 +1,29 @@
+Contribute
+==========
+
+We welcome contributions to MLPedRVFL!
+
+How to Contribute
+-----------------
+1. Fork the Repository on GitHub.
+2. Clone the Repository:
+```bash
+git clone https://github.com/yourusername/mlpedrvfl.git
+```
+3. Install Dependencies:
+```bash
+pip install -r requirements.txt
+```
+4. Create a Feature Branch:
+```bash
+git checkout -b new-feature
+```
+5. Make your Changes and Commit:
+```bash
+git add .
+git commit -m 'Add new feature'
+```
+6. Push to Github and Submit a Pull Request:
+```bash
+git push origin new-feature
+```
