@@ -1,3 +1,4 @@
+-e .
 sphinx
 nbsphinx
 pydata-sphinx-theme ~=0.15.2
