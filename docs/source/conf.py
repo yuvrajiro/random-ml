@@ -17,6 +17,8 @@ copyright = '2025, Rahul Goswami'
 author = 'Rahul Goswami'
 release = '0.1.0'
 
+needs_sphinx = "1.8"
+
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
 # # https://docs.readthedocs.io/en/latest/faq.html?highlight=environ#how-do-i-change-behavior-for-read-the-docs
 # on_rtd = os.environ.get("READTHEDOCS", None) == "True"
