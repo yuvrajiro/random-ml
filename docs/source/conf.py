@@ -8,8 +8,7 @@
 
 import os
 import sys
-import nbsphinx
-import randomml
+
 
 # Check if running on ReadTheDocs
 on_rtd = os.environ.get("READTHEDOCS", None) == "True"
@@ -21,6 +20,9 @@ else:
     sys.path.insert(0, os.path.abspath("../../"))  # Local builds
 
 #sys.path.insert(0, os.path.abspath('../../'))
+
+# Debug: Print the sys.path to confirm
+print(f"sys.path: {sys.path[0]}")
 version = "0.1.0"
 
 project = 'random-ml'
