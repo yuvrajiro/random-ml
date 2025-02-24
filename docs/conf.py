@@ -17,7 +17,7 @@ on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 if on_rtd:
     sys.path.insert(0, os.path.abspath(os.path.pardir))
 else:
-    sys.path.insert(0, os.path.abspath("../../"))  # Local builds
+    sys.path.insert(0, os.path.abspath("../"))  # Local builds
 
 #sys.path.insert(0, os.path.abspath('../../'))
 
