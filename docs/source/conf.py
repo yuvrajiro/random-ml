@@ -10,6 +10,15 @@ import os
 import sys
 import nbsphinx
 
+# Check if running on ReadTheDocs
+on_rtd = os.environ.get("READTHEDOCS", None) == "True"
+
+# If running on ReadTheDocs, add the parent directory (where randomml is located) to sys.path
+if on_rtd:
+    sys.path.insert(0, os.path.abspath(os.path.pardir))
+else:
+    sys.path.insert(0, os.path.abspath("../../"))  # Local builds
+
 #sys.path.insert(0, os.path.abspath('../../'))
 version = "0.1.0"
 
@@ -20,15 +29,7 @@ release = '0.1.0'
 
 needs_sphinx = "1.8"
 
-# on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-# https://docs.readthedocs.io/en/latest/faq.html?highlight=environ#how-do-i-change-behavior-for-read-the-docs
-on_rtd = os.environ.get("READTHEDOCS", None) == "True"
 
-# If extensions (or modules to document with autodoc) are in another directory,
-# add these directories to sys.path here. If the directory is relative to the
-# documentation root, use os.path.abspath to make it absolute, like shown here.
-if on_rtd:
-    sys.path.insert(0, os.path.abspath(os.path.pardir))
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
