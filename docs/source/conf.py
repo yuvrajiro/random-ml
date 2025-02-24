@@ -8,7 +8,6 @@
 
 import os
 import sys
-from nbconvert.preprocessors import Preprocessor
 import nbsphinx
 
 sys.path.insert(0, os.path.abspath('../../'))
