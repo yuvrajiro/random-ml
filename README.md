@@ -110,9 +110,9 @@ Then open `docs/build/html/index.html` in your browser.
 |--------------------|------------|
 | `random_ml.rvfl`  | Implements RVFL-based models |
 | `random_ml.ensemble` | Includes Boosting & Bagging implementations |
-| `random_ml.scn`   | Stochastic Configuration Networks |
-| `random_ml.elm`   | Extreme Learning Machines |
-| `random_ml.ffnn`  | Fixed Feedforward Neural Networks |
+| `randomml.classifier` | Provides RVFL-based classifiers |
+| `random_ml.regressor` | Contains RVFL-based regressors |
+| `randomml.mlpedrvfl` | Implements the MLPedRVFL model |
 
 ---
 
